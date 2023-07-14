@@ -8,7 +8,7 @@ app.use(cors({
 const mongodb = require("mongodb")
 const mongoClient = mongodb.MongoClient;
 
-const URL = "mongodb://localhost:27017/"
+const URL = "mongodb+srv://akdonn47:ak1234567@cluster0.7evlonb.mongodb.net/"
 app.use(express.json());
 
 
